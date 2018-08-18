@@ -1,0 +1,27 @@
+{
+    "Comment": "Create a subdomain NS record in the parent domain",
+    "Changes": [
+        {
+            "Action": "CREATE",
+            "ResourceRecordSet": {
+                "Name": "sal.dotstarmoney.com",
+                "Type": "NS",
+                "TTL": 300,
+                "ResourceRecords": [
+                    {
+                        "Value": "ns-359.awsdns-44.com"
+                    },
+                    {
+                        "Value": "ns-1739.awsdns-25.co.uk"
+                    },
+                    {
+                        "Value": "ns-838.awsdns-40.net"
+                    },
+                    {
+                        "Value": "ns-1097.awsdns-09.org"
+                    }
+                ]
+            }
+        }
+    ]
+}
