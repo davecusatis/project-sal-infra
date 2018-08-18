@@ -1,0 +1,14 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: project-sal-config
+data:
+  config.yml: |-
+    server:
+     idletimeout: 5s
+     readtimeout: 5s
+     writetimeout: 5s
+     addr: ":3030"
+
+    database:
+     dsn: "proxyuser:password@(localhost:3306)/news"
